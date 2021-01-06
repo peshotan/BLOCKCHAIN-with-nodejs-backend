@@ -1,0 +1,22 @@
+{
+  "name": "peter_irani_blockchain",
+  "version": "1.0.0",
+  "description": "\"peer-to-peer blockchain with node.js backend\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-jest": "jest --watchAll",
+    "start": "node app.js",
+    "dev-start" : "nodemon app.js"
+  },
+  "author": "peter_irani",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "hex-to-binary": "^1.0.1"
+  }
+}
